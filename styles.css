@@ -101,14 +101,14 @@ h1{
 }
 
 p[id="main-tagline"]{
-    font-size:75px;
+    font-size:65px;
 }
 
 p[id="tagline"]{
 	font-family: 'Roboto',sans-serif;
 	font-size: 16px;
 	margin-bottom: 0;
-	margin-top: 0.5%;
+	margin-top: -10px;
 	text-align: left;
 	/*background-color: rgba(52,58,64,0.6);
 	display:inline-block;
