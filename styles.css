@@ -102,7 +102,7 @@ h1{
 
 p[id="tagline"]{
 	font-family: 'Roboto',sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	margin-bottom: 0;
 	margin-top: 1%;
 	text-align: left;
@@ -118,7 +118,7 @@ p[id="tagline"]{
 p[id="sub-tagline"]{
 	margin-top:0;
 	font-family: 'Roboto',sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	text-align: left;
 }
 
