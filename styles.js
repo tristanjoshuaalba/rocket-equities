@@ -1,4 +1,4 @@
-$('.carousel').carousel({interval: 10000})
+$('.carousel').carousel({interval: 4000})
 
 var $item = $('.carousel-item');
 var $wHeight = $(window).height();
