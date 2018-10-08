@@ -1,4 +1,4 @@
-$('.carousel').carousel({interval: 4000})
+$('.carousel').carousel({interval: 1500})
 
 var $item = $('.carousel-item');
 var $wHeight = $(window).height();
@@ -39,6 +39,8 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$('body').scrollspy({target: ".navbar-item"})
 
 // --------------------------
 

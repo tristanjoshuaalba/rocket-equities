@@ -184,15 +184,15 @@ p{
 }
 
 .profile-pic{
-    min-width:160px;
+    min-width:145px;
     width:45%;
-    min-height:160px;
+    min-height:145px;
     height: 45%;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:20%;
+    margin-top:30%;
      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -216,6 +216,7 @@ p{
 
 .col{
     text-align:center;
+    margin-right:20px;
 }
 
 .person-name{
