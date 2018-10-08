@@ -184,9 +184,9 @@ p{
 }
 
 .profile-pic{
-    min-width:145px;
+    min-width:125px;
     width:45%;
-    min-height:145px;
+    min-height:125px;
     height: 45%;
     text-align: center;
     display: block;
