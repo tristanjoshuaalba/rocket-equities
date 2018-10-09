@@ -192,7 +192,7 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:30%;
+    margin-top:20%;
      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
