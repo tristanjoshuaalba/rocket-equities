@@ -192,15 +192,16 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:20%;
-     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    margin-top:30%;
+    border:solid 5px #DD2210;
+/*     -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);*/
 }
 
 .profile-pic:hover{
-    border:solid 5px #DD2210;
-     -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(10%);
+
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .profile-pic:hover .profile-linkedin{
