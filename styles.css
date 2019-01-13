@@ -6,6 +6,38 @@ background-color: black;
 }
 
 
+
+/* Media */
+.card-logo{
+    min-width:50px;
+    width:45%;
+    min-height:20px;
+    height: 45%;
+    text-align: left;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0%;
+    margin-bottom:2%;
+    /*border:solid 5px #DD2210;*/
+/*     -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);*/
+}
+
+.card-logo:hover{
+     -webkit-filter: grayscale(10%);  Safari 6.0 - 9.0 
+    filter: grayscale(10%);
+}
+
+/*.card-logo:hover .profile-linkedin{
+    color:rgba(221,34,16,0.5);
+
+}*/
+
+
+/**/
+
+
 /* Navbar Styling */
 
 .site-logo:hover{
@@ -27,6 +59,10 @@ background-color: black;
 #nav-logo-title{
     min-width: 120px;
     width:150px;
+}
+
+.nav-item{
+    font-family: 'Roboto';
 }
 
 
@@ -131,6 +167,7 @@ h1{
 
 p[id="main-tagline"]{
     font-size:50px;
+
 }
 
 p[id="tagline"]{
