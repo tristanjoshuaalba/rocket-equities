@@ -6,6 +6,15 @@ background-color: black;
 }
 
 
+.section-header{
+	text-align:center; 
+	color:white; 
+	font-size: 30px; 
+	text-transform: uppercase; 
+	letter-spacing: 8px;
+	margin-bottom:2%;
+}
+
 
 /* Media */
 .card-logo{
@@ -137,15 +146,15 @@ background-repeat:no-repeat;
 background-size:cover;
 }
 .carousel .carousel-inner .bg1 {
-background-image:url('https://source.unsplash.com/g5Uh7nP60FA');
+background-image:url('images/company/bg6.jpg');
 background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-background-image:url('https://source.unsplash.com/nfQk1YdGoNc');
+background-image:url('images/company/bg2.jpeg');
 background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-background-image:url('https://source.unsplash.com/nBgrySahBA8');
+background-image:url('images/company/bg3.jpeg');
 background-position: center bottom;
 }
 
@@ -190,6 +199,7 @@ background-position: center bottom;
 }
 
 
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -207,15 +217,15 @@ h1{
 }
 
 p[id="main-tagline"]{
-    font-size:50px;
+    font-size:1rem;
 
 }
 
 p[id="tagline"]{
 	font-family: 'Roboto',sans-serif;
-	font-size: 16px;
+	font-size: 1.20em;
 	margin-bottom: 0;
-	margin-top: -10px;
+	margin-top: -0.8em;
 	text-align: left;
 	/*background-color: rgba(52,58,64,0.6);
 	display:inline-block;
@@ -277,7 +287,8 @@ p{
 }
 
 .profile-pic:hover{
-    border:solid 5px #DD2210;
+    border:solid 5px rgba(222,34,16,0.75);
+    /*border:solid 5px rgba(256,256,256,0.2);*/
      -webkit-filter: grayscale(10%);  Safari 6.0 - 9.0 
     filter: grayscale(10%);
 }
