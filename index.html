@@ -6,7 +6,7 @@
 	<title>Rocket Equities</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto:100" rel="stylesheet"> 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="bootstrap.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -16,33 +16,88 @@
 
 <!-- navigation bar -->
 
-<nav id="navbar-bar" class="navbar navbar-expand-lg navbar-dark sticky-top sticky">
+<!-- <nav id="navbar-bar" class="navbar navbar-expand-lg navbar-dark sticky-top sticky">
 	<span class="navbar-brand mb-0 h1 site-brand">
 	  	<a href="https://www.rocketequities.com" class="site-logo">
-	  	<img id="nav-logo" src="rocket-logo-white.png">
-	  	<img id="nav-logo-title" src="rocket-title-white.png">
+		  	<img id="nav-logo" src="rocket-logo-white.png">
+		  	<img id="nav-logo-title" src="rocket-title-white.png">
 	  	</a>
 	</span>
+
   	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    	<span class="navbar-toggler-icon"></span>
  	 </button>
 
  	<div style="margin-left:38%;text-align:center;">
+	  	<div class="collapse navbar-collapse" id="navbarNav" >
+		    <div class="navbar-nav">
+		      	<a class="nav-item nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+		      	<a class="nav-item nav-link" href="#clients">Clients</a>
+		      	<a class="nav-item nav-link" href="#partners">Partners</a>
+		     	<a class="nav-item nav-link" href="#team">Team</a>
+		     	<a class="nav-item nav-link" href="#media">Media</a>
+		    </div>
+	  	</div>
+ 	 </div>
+</nav> -->
 
-  	<div class="collapse navbar-collapse" id="navbarNav" >
-	    <div class="navbar-nav">
-	      	<a class="nav-item nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
-	      	<a class="nav-item nav-link" href="#clients">Clients</a>
-	      	<a class="nav-item nav-link" href="#partners">Partners</a>
-	     	<a class="nav-item nav-link" href="#team">Team</a>
-	     	<a class="nav-item nav-link" href="#media">Media</a>
+<!--  -->
+<!-- Navigation -->
+<nav id="navbar-bar" class="navbar navbar-expand-lg navbar-dark sticky-top sticky">
+  <div class="container">
+    <span class="navbar-brand" href="#">
+        <a href="https://www.rocketequities.com" class="site-logo">
+		  	<img id="nav-logo" src="rocket-logo-white.png">
+		  	<img id="nav-logo-title" src="rocket-title-white.png">
+	  	</a>
+    </span>
 
-
-	    </div>
-  	</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clients">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#partners">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#media">Media</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 
+
+ <!--  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div> -->
+<!--  -->
 
 <!-- carousel -->
 
@@ -51,6 +106,7 @@
       <li data-target="#home" data-slide-to="0" class="active"></li>
       <li data-target="#home" data-slide-to="1"></li>
       <li data-target="#home" data-slide-to="2"></li>
+
     </ol>
 
     <div class="carousel-inner">
@@ -58,12 +114,14 @@
       	<div class="overlay"></div>
         <div class="container">
           <div class="carousel-caption">
+          	
             <p id="main-tagline" style="font-size:50px">M&A ADVISORY</p>
             <p id="tagline">ACQUIRE COMPANIES IN SOUTHEAST ASIA AND EUROPE</p>
             <p id="sub-tagline">Venture Capital <span id="tall">|</span> Family Office <span id="tall">|</span> HNWI <br> <a href="https://www.linkedin.com/company/rocketequities"><br><button class="btn btn-outline-light text-light btn-sm"  role="button">Learn more</button></a></p>
           </div>
         </div>
       </div>
+
       <div class="carousel-item bg bg2">
       	<div class="overlay"></div>
         <div class="container">
@@ -91,6 +149,10 @@
   </div>
 
 
+
+
+   
+
 <!-- Clients -->
 
  <div class="container-fluid" id="clients" style="background-color:black; padding-top:10%; padding-bottom:10%">
@@ -100,47 +162,77 @@
  		</div>
 
  		<div class="row">
-   				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
-  					<a href="https://www.taxi2airport.com/en" class="generic-icon" style="text-align: center">
- 						<img src="taxi2airport-logo.png" width=250px style="text-align:center">
+ 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center" class="generic-icon" >
+  					<a href="https://www.greatdealscorp.com" class="generic-icon" style="text-align: center">
+ 						<img src="greatdeals-logo.png" width=150em style="text-align:center">
  					</a>
  				</div>
+
+ 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
+  					<a href="https://omnirio.com/" class="generic-icon" style="text-align: center">
+ 						<img src="omnirio-logo.png" width=150em style="text-align:center">
+ 					</a>
+ 				</div>
+
+ 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center" class="generic-icon" >
+  					<a href="https://mineskiinfinity.com/" class="generic-icon" style="text-align: center">
+ 						<img src="mineski-logo.png" width=150em style="text-align:center">
+ 					</a>
+ 				</div>
+
+ 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
+  					<a href="https://godigitalcorp.com/" class="generic-icon" style="text-align: center">
+ 						<img src="godigital-logo.png" width=150em style="text-align:center">
+ 					</a>
+ 				</div>
+
+ 				<!-- CHANGE GRID -->
+
+ 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
+  					<a href="https://ysa.com.ph/" class="generic-icon" style="text-align: center">
+ 						<img src="ysa-logo.png" width=120em style="text-align:center">
+ 					</a>
+ 				</div>
+
+ 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 3%;vertical-align: center; text-align:center">
+  					<a href="https://www.fashionsmile.ph/" class="generic-icon" style="text-align: center" style="text-align:center">
+ 						<img src="fashion-smile-logo.png" width=110em>
+ 					</a>
+ 				</div>
+  				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="vertical-align: center; text-align:center; padding-top:1%">
+  					<a href="http://www.arameshwellness.com/" class="generic-icon" style="text-align: center">
+ 						<img src="aramesh-logo.png" width=150em style="text-align:center">
+ 					</a>
+ 				</div>
+
+ 				<!-- CHANGE GRID -->
+
+ 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center" >
+ 					<a href="http://mober.delivery/web/" class="generic-icon" style="text-align: center">
+ 						<img src="mober-icon.png" width=150em style="text-align:center">
+ 					</a>
+ 				</div>
+
+ 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center" class="generic-icon" >
+  					<a href="http://cestates.io/" class="generic-icon" style="text-align: center">
+ 						<img src="cestates-icon.png" width=150em style="text-align:center">
+ 					</a>
+ 				</div>
+
    				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
-  					<a href="https://www.hellospecial.com/nl" class="generic-icon" style="text-align: center">
- 						<img src="hellospecial-logo.svg" width=200px style="text-align:center">
+  					<a href="https://www.taxi2airport.com/en" class="generic-icon" style="text-align: center">
+ 						<img src="taxi2airport-logo.png" width=150em style="text-align:center">
  					</a>
  				</div>
    				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
   					<a href="https://offerte.nl/" class="generic-icon" style="text-align: center">
- 						<img src="offerte-logo.svg" width=200px style="text-align:center">
+ 						<img src="offerte-logo.svg" width=150em style="text-align:center">
  					</a>
  				</div>
-   				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center" class="generic-icon" >
-  					<a href="http://cestates.io/" class="generic-icon" style="text-align: center">
- 						<img src="cestates-icon.png" width=200px style="text-align:center">
- 					</a>
- 				</div>
+   				
 
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center" >
- 					<a href="http://mober.delivery/web/" class="generic-icon" style="text-align: center">
- 						<img src="mober-icon.png" width=190px style="text-align:center">
- 					</a>
- 				</div>
-  				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%;vertical-align: center; text-align:center">
-  					<a href="https://www.fashionsmile.ph/" class="generic-icon" style="text-align: center" style="text-align:center">
- 						<img src="fashion-smile-logo.png" width=120px>
- 					</a>
- 				</div>
-  				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="vertical-align: center; text-align:center">
-  					<a href="http://www.arameshwellness.com/" class="generic-icon" style="text-align: center">
- 						<img src="aramesh-logo.png" width=180px style="text-align:center">
- 					</a>
- 				</div>
-  				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
-  					<a href="https://www.greatdealscorp.com" class="generic-icon" style="text-align: center">
- 						<img src="greatdeals-logo.png" width=200px style="text-align:center">
- 					</a>
- 				</div>
+ 				
+  				
 
 
  		</div>
@@ -171,6 +263,12 @@
  		<div class="row">
  				<!-- <div class="col-lg-2 col-md-12 col-sm-12 mt-5" style="padding-top: 3%; text-align:center"></div> -->
  				
+ 				<div class="col-lg-4 col-md-12 col-sm-12 mt-5" style="padding-top: 7%; text-align:center">
+ 					<a href="https://www.svca.org.sg/" class="generic-icon" style="text-align:center">
+  						<img src="svca-logo.png" width=220px>
+  					</a>
+ 				</div>
+
  				<div class="col-lg-4 col-md-12 col-sm-12 mt-5" style="padding-top: 3%; text-align:center">
  					<a href="https://venturebuilders.nl/" class="generic-icon">
  						<img src="venture-tree-logo.svg" width=50px  style="text-align:center">
@@ -178,13 +276,18 @@
  						<img src="venture-color-logo.svg" width=220px  style="text-align:center">
  					</a>
  				</div>
+
+ 				<div class="col-lg-4 col-md-12 col-sm-12 mt-5" style="padding-top: 2%; text-align:center">
+  					<a href="https://wplaw.com.ph" class="generic-icon" style="text-align:center">
+  						<img src="wplaw-logo.png" width=220px>
+  					</a>
+ 				</div>
  		<!-- 		<div class="col-lg-2 col-md-12 col-sm-12 mt-5" style="padding-top: 3%; text-align:center">
  				</div> -->
   				<div class="col-lg-4 col-md-12 col-sm-12 mt-5" style="padding-top: 5%; text-align:center">
   					<a href="http://bgclaw.ph/" class="generic-icon" style="text-align:center">
   						<img src="bgc-law-logo.png" width=220px>
   					</a>
- 	
  				</div>
 
    				<div class="col-lg-4 col-md-12 col-sm-12 mt-5" style="padding-top: 5%; text-align:center">
@@ -394,30 +497,96 @@
 </div>
 </div>
 
-<div style="margin:10%"></div>
+<div style="margin:0%"></div>
  <!-- Footer area -->
 
  <hr>
 
 <div style="margin:5%"></div>
 
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4" style="background-color: rgba(256,256,256,0)">
 
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
 
-<footer class="page-footer font-small pt-4" style="background-color:black; margin:auto; width:82%; min-width: 200px">
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-7 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">About Us</h5>
+	        <p style='font-size: 0.8em; text-align: justify'>
+	        	Rocket Equities is an international investment banking firm experienced in M&A Advisory andCapital Raising. We advise Asian Startups and SMEs in raising capital, structuring deals, conducting due diligence, realigning capital structure and crafting key strategic decisions. 
+	        	<br><br>
+				We bring radical transparency to our portfolio companies, which are respected by Venture Capitaland HNIs looking forward to investing in high-growth ventures. We work and maintain close relations with thought leaders from top international business schools as well as industry experts to assist companies in achieving their financial objectives.
+			</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+      <hr class="d-md-none">
+      <!-- Grid column -->
+      <div class="col-md-5 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Offices</h5>
+  			<p style="font-size: 0.8em;">
+  				<span style="color:#DD2210">Europe </span> | Kabelweg 43, Amsterdam, North Holland 1014 BA, Netherlands
+          		<br> 
+          		<span style="color:#DD2210">Asia </span> | Marco Polo Ortigas Manila, Pasig, Metro Manila 1600, Philippines 
+          		<br> 
+          	</p>
+        <h5 class="text-uppercase font-weight-bold">Contact</h5>
+        	<p style="font-size: 0.8em;">
+        		<span style="color:#DD2210">Email </span> | contact@rocketequities.com  
+        		<br>
+        		<span style="color:#DD2210">Phone </span> | (+63) 28835279
+        	</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <hr>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color: rgba(0,0,0,0.5)"> 
+  		<p style="text-align: center;"> 
+  			© 2019 Copyright Rocket Equities, B.V.
+  		</p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!-- <footer class="page-footer font-small pt-4" style="background-color:black; margin:auto; width:82%; min-width: 200px">
     <div class="container-fluid text-center text-md-left">
       <div class="row">
 
 
         <div class="col-md-6 mb-md-0 mb-3">
+
           <p><span style="color:#DD2210">Europe </span> | Kabelweg 43, Amsterdam, North Holland 1014 BA, Netherlands
-          <br> <span style="color:#DD2210">Asia </span> | Marco Polo Ortigas Manila, Pasig, Metro Manila 1600, Philippines </p>
+          <br> <span style="color:#DD2210">Asia </span> | Marco Polo Ortigas Manila, Pasig, Metro Manila 1600, Philippines 
+          <br> </p>
+
         </div>
 
         <div class="col-md-1 mt-md-0 mt-3">
        	</div>
 
         <div class="col-md-5 mt-md-0 mt-3">
-          <!-- <p>In partnership with <a href="https://venturebuilders.nl/" style="color:#DD2210">VentureBuilders B.V. </a><br> -->
+         
           <p style="text-align: right;"><i class="far fa-copyright" style="font-size:80%; color: rgba(256,256,256,0.5)"></i> 2018 Rocket Equities, B.V.</span>  
           <br> contact@rocketequities.com  |    (+63)28835279</p>
 
@@ -426,9 +595,7 @@
 
       </div>
     </div>
-  </footer>
-  <br>
-  <br>
+  </footer> -->
 
 
 </body>

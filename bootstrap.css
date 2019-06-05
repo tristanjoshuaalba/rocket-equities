@@ -4035,8 +4035,9 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
+  margin-top: 0.25rem;
+  font-size: 1.00rem;
+  line-height: 1.2;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -4054,7 +4055,8 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
+  /*padding-top: -10px;*/
+  vertical-align: sub;
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
