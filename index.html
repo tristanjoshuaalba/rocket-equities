@@ -1,509 +1,421 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="rocket-logo-white-favicon.png">
-	<title>Rocket Equities</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto:100" rel="stylesheet"> 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="bootstrap.js"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<script type="text/javascript" src="styles.js"></script>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="rocket-logo-white-favicon.png" rel="icon" />
+  <title>Rocket Equities</title>
+  <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto:100" rel="stylesheet" /><script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script><script type="text/javascript" src="bootstrap.js"></script><script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script><script type="text/javascript" src="styles.js"></script>
 </head>
-<body>
+<body data-gr-c-s-loaded="true">
 
 <!-- NAVIGATION -->
-<nav id="navbar-bar" class="navbar navbar-expand-lg navbar-dark sticky-top sticky">
-  <div class="container">
-    <span class="navbar-brand" href="#">
-        <a href="https://www.rocketequities.com" class="site-logo">
-		  	<img id="nav-logo" src="images/company/rocket-logo-white.png">
-		  	<img id="nav-logo-title" src="images/company/rocket-title-white.png">
-	  	</a>
-    </span>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          	<a class="nav-link" href="#home">Home
-                <span class="sr-only">
-                	(current)
-                </span>
-            </a>
-        </li>
-        <li class="nav-item">
-         	 <a class="nav-link" href="#clients">
-         	 	Clients
-         	 </a>
-        </li>
-        <li class="nav-item">
-          	<a class="nav-link" href="#partners">
-          		Partners
-          	</a>
-        </li>
-        <li class="nav-item">
-          	<a class="nav-link" href="#team">
-          		Team
-          	</a>
-        </li>
-        <li class="nav-item">
-          	<a class="nav-link" href="#media">
-          		Media
-          	</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top sticky" id="navbar-bar">
+<div class="container"><span class="navbar-brand" href="#"><a class="site-logo" href="https://www.rocketequities.com"><img id="nav-logo" src="images/company/rocket-logo-white.png" /> <img id="nav-logo-title" src="images/company/rocket-title-white.png" /> </a> </span><button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button"></button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item"><a class="nav-link" href="#home">Home <span class="sr-only"> (current) </span> </a></li>
+  <li class="nav-item"><a class="nav-link" href="#partners">Partners </a></li>
+  <li class="nav-item"><a class="nav-link" href="#clients">Clients </a></li>
+  <li class="nav-item"><a class="nav-link" href="#team">Team </a></li>
+  <li class="nav-item"><a class="nav-link" href="#media">Media </a></li>
+</ul>
+</div>
+</div>
 </nav>
-
 <!-- CAROUSEL -->
-  <div id="home" class="carousel slide carousel-fade" data-ride="carousel" style="margin-bottom:0">
 
-    <ol class="carousel-indicators">
-     	<li data-target="#home" data-slide-to="0" class="active"></li>
-      	<li data-target="#home" data-slide-to="1"></li>
-      	<li data-target="#home" data-slide-to="2"></li>
-    </ol>
+<div class="carousel slide carousel-fade" data-ride="carousel" id="home" style="margin-bottom:0">
+<ol class="carousel-indicators">
+  <li class="active" data-slide-to="0" data-target="#home"></li>
+  <li data-slide-to="1" data-target="#home"></li>
+  <li data-slide-to="2" data-target="#home"></li>
+</ol>
 
-    <div class="carousel-inner">
-      <div class="carousel-item active bg bg1">
-      	<div class="overlay"></div>
-        <div class="container">
-          	<div class="carousel-caption">
-           		<p id="main-tagline" style="font-size:50px">M&A ADVISORY</p>
-            	<p id="tagline">ACQUIRE COMPANIES IN SOUTHEAST ASIA AND EUROPE</p>
-            	<p id="sub-tagline">Venture Capital <span id="tall">|</span> Family Office <span id="tall">|</span> HNWI <br> <a href="https://www.linkedin.com/company/rocketequities"><br><button class="btn btn-outline-light text-light btn-sm"  role="button">Learn more</button></a></p>
-          	</div>
-        </div>
-      </div>
-      <div class="carousel-item bg bg2">
-      	<div class="overlay"></div>
-        <div class="container">
-          	<div class="carousel-caption">
-	            <p id="main-tagline" style="font-size:50px">CAPITAL RAISING</p>
-	            <p id="tagline">SECURE SOURCES OF FUNDING</p>
-	            <p id="sub-tagline">Seed Stage <span id="tall">|</span> Growth Stage <span id="tall">|</span> Late Stage <br> <a href="https://www.linkedin.com/company/rocketequities"><br><button class="btn btn-outline-light text-light btn-sm"  role="button">Learn more</button></a></p>
-          	</div>
-        </div>
-      </div>
-      <div class="carousel-item bg bg3 ">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="carousel-caption">
-            <p id="main-tagline" style="font-size:50px">STRATEGIC CONSULTING</p>
-            <p id="tagline">DISCOVER NEW TRAJECTORIES</p>
-            <p id="sub-tagline">Digital Transformation & Analytics <span id="tall">|</span> Corporate Finance & Strategy <span id="tall">|</span> International Legal & Tax Advice <br> <a href="https://www.linkedin.com/company/rocketequities"><br><button class="btn btn-outline-light text-light btn-sm"  role="button">Learn more</button></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="carousel-inner">
+<div class="carousel-item active bg bg1">
+<div class="overlay"></div>
 
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-  </div>
+<div class="container">
+<div class="carousel-caption">
+<p id="main-tagline" style="font-size:50px">M&amp;A ADVISORY</p>
 
-<!-- CLIENTS -->
- <div class="container-fluid" id="clients" style="background-color:black; padding-top:10%; padding-bottom:10%">
- 	<div class="container" style="margin:auto; width:75%; min-width: 200px">
- 		<div style="position: -webkit-sticky;">
- 			<h1 class="section-header">Clients</h1>
- 		</div>
+<p id="tagline">ACQUIRE COMPANIES IN SOUTHEAST ASIA AND EUROPE</p>
 
- 		<div class="row">
+<p id="sub-tagline">Venture Capital <span id="tall">|</span> Family Office <span id="tall">|</span> HNWI<br />
+<br />
+<button class="btn btn-outline-light text-light btn-sm" role="button">Learn more</button></p>
+</div>
+</div>
+</div>
 
- 				<!-- START GRID -->
+<div class="carousel-item bg bg2">
+<div class="overlay"></div>
 
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center" class="generic-icon" >
-  					<a href="https://www.greatdealscorp.com" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/greatdeals-logo.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
+<div class="container">
+<div class="carousel-caption">
+<p id="main-tagline" style="font-size:50px">CAPITAL RAISING</p>
 
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
-  					<a href="https://omnirio.com/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/omnirio-logo.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
+<p id="tagline">SECURE SOURCES OF FUNDING</p>
 
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center" class="generic-icon" >
-  					<a href="https://mineskiinfinity.com/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/mineski-logo.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
+<p id="sub-tagline">Seed Stage <span id="tall">|</span> Growth Stage <span id="tall">|</span> Late Stage<br />
+<br />
+<button class="btn btn-outline-light text-light btn-sm" role="button">Learn more</button></p>
+</div>
+</div>
+</div>
 
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
-  					<a href="https://godigitalcorp.com/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/godigital-logo.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
+<div class="carousel-item bg bg3 ">
+<div class="overlay"></div>
 
- 				<!-- CHANGE GRID -->
+<div class="container">
+<div class="carousel-caption">
+<p id="main-tagline" style="font-size:50px">STRATEGIC CONSULTING</p>
 
- 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center" class="generic-icon" >
-  					<a href="https://ysa.com.ph/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/ysa-logo.png" width=120em style="text-align:center">
- 					</a>
- 				</div>
+<p id="tagline">DISCOVER NEW TRAJECTORIES</p>
 
- 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 3%;vertical-align: center; text-align:center">
-  					<a href="https://www.fashionsmile.ph/" class="generic-icon" style="text-align: center" style="text-align:center">
- 						<img src="images/clients/fashion-smile-logo.png" width=110em>
- 					</a>
- 				</div>
-  				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="vertical-align: center; text-align:center; padding-top:1%">
-  					<a href="http://www.arameshwellness.com/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/aramesh-logo.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
-
- 				<!-- CHANGE GRID -->
-
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 1%; text-align:center" >
- 					<a href="http://mober.delivery/web/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/mober-icon.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
-
- 				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 1%; text-align:center" class="generic-icon" >
-  					<a href="http://cestates.io/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/cestates-icon.png" width=170em style="text-align:center">
- 					</a>
- 				</div>
-
-   				<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 2%; text-align:center" class="generic-icon" >
-  					<a href="https://www.taxi2airport.com/en" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/taxi2airport-logo.png" width=150em style="text-align:center">
- 					</a>
- 				</div>
-
- 				<!-- CHANGE GRID  -->
-   				<div class="col-lg-3 col-md-12 col-sm-12 mt-5" style="padding-top: 2%; text-align:center" class="generic-icon" >
-  					<a href="https://offerte.nl/" class="generic-icon" style="text-align: center">
- 						<img src="images/clients/offerte-logo.svg" width=150em style="text-align:center">
- 					</a>
- 				</div>
- 				<!-- END GRID -->
-
- 		</div>
- 	</div>
- </div>
-
- <hr>
-
+<p id="sub-tagline">Digital Transformation &amp; Analytics <span id="tall">|</span> Corporate Finance &amp; Strategy <span id="tall">|</span> International Legal &amp; Tax Advice<br />
+<br />
+<button class="btn btn-outline-light text-light btn-sm" role="button">Learn more</button></p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <!-- PARTNERS -->
 <div class="container-fluid" id="partners" style="background-color:black; padding-top:10%; padding-bottom:10%">
- 	<div class="container" style="margin:auto; width:95%; min-width: 200px">
- 		<div style="position: -webkit-sticky;">
- 			<h1 class="section-header">Partners</h1>
- 		</div>
+<div class="container" style="margin:auto; width:95%; min-width: 200px">
+<div style="position: -webkit-sticky;">
+<h1 class="section-header" style="text-align:center; color:white; font-size: 30px; text-transform: uppercase; letter-spacing: 8px; margin-bottom:2%;">Partners</h1>
+</div>
 
- 		<div class="row">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 7%; text-align:center"><a class="generic-icon" href="https://www.svca.org.sg/" style="text-align:center"><img src="images/partners/svca-logo.png" width="240em" /> </a></div>
 
- 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 7%; text-align:center">
- 					<a href="https://www.svca.org.sg/" class="generic-icon" style="text-align:center">
-  						<img src="images/partners/svca-logo.png" width=240em>
-  					</a>
- 				</div>
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center"><a class="generic-icon" href="https://venturebuilders.nl/"><img src="images/partners/venture-tree-logo.svg" style="text-align:center" width="50em" /><br />
+<img src="images/partners/venture-color-logo.svg" style="text-align:center" width="220em" /> </a></div>
 
- 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center">
- 					<a href="https://venturebuilders.nl/" class="generic-icon">
- 						<img src="images/partners/venture-tree-logo.svg" width=50em  style="text-align:center">
- 							<br>
- 						<img src="images/partners/venture-color-logo.svg" width=220em  style="text-align:center">
- 					</a>
- 				</div>
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 2.5%; text-align:center"><a class="generic-icon" href="https://wplaw.com.ph" style="text-align:center"><img src="images/partners/wplaw-logo.png" width="200em" /> </a></div>
 
- 				<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 2.5%; text-align:center">
-  					<a href="https://wplaw.com.ph" class="generic-icon" style="text-align:center">
-  						<img src="images/partners/wplaw-logo.png" width=200em>
-  					</a>
- 				</div>
+<div class="col-lg-6 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center"><a class="generic-icon" href="http://bgclaw.ph/" style="text-align:center"><img src="images/partners/bgc-law-logo.png" width="150em" /> </a></div>
 
-  				<div class="col-lg-6 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center">
-  					<a href="http://bgclaw.ph/" class="generic-icon" style="text-align:center">
-  						<img src="images/partners/bgc-law-logo.png" width=150em>
-  					</a>
- 				</div>
-
-   				<div class="col-lg-6 col-md-12 col-sm-12 mt-5" style="padding-top: 5%; text-align:center">
-  					<a href="http://thefinalpitch.ph" class="generic-icon" style="text-align:center">
-  						<img src="images/partners/finalpitch-logo.png" width=150em>
-  					</a>
- 	
- 				</div>
-
- 		</div>
- 	</div>
- </div>
+<div class="col-lg-6 col-md-12 col-sm-12 mt-5" style="padding-top: 5%; text-align:center"><a class="generic-icon" href="http://thefinalpitch.ph" style="text-align:center"><img src="images/partners/finalpitch-logo.png" width="150em" /> </a></div>
+</div>
+</div>
+</div>
 
 <hr>
+<!-- CLIENTS -->
 
- <!-- TEAM -->
+<div class="container-fluid" id="clients" style="background-color:black; padding-top:10%; padding-bottom:10%">
+<div class="container" style="margin:auto; width:75%; min-width: 200px">
+<div style="position: -webkit-sticky;">
+<h1 class="section-header" style="text-align:center; color:white; font-size: 30px; text-transform: uppercase; letter-spacing: 8px; margin-bottom:2%;">Clients</h1>
+</div>
+
+<div class="row"><!-- START GRID -->
+<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center"><a class="generic-icon" href="https://www.greatdealscorp.com" style="text-align: center"><img src="images/clients/greatdeals-logo.png" style="text-align:center" width="160em" /> </a></div>
+
+<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 1.5%; text-align:center"><a class="generic-icon" href="http://cestates.io/" style="text-align: center"><img src="images/clients/cestates-icon.png" style="text-align:center" width="180em" /> </a></div>
+
+<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center"><a class="generic-icon" href="https://www.taxi2airport.com/en" style="text-align: center"><img src="images/clients/taxi2airport-logo.png" style="text-align:center" width="160em" /> </a></div>
+
+<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 3%; text-align:center"><a class="generic-icon" href="https://offerte.nl/" style="text-align: center"><img src="images/clients/offerte-logo.svg" style="text-align:center" width="160em" /> </a></div>
+
+<!--<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center"><a class="generic-icon" href="https://omnirio.com/" style="text-align: center"><img src="images/clients/omnirio-logo.png" style="text-align:center" width="150em" /> </a></div>-->
+
+<!--<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 5%; text-align:center"><a class="generic-icon" href="https://mineskiinfinity.com/" style="text-align: center"><img src="images/clients/mineski-logo.png" style="text-align:center" width="150em" /> </a></div>-->
+
+<!--<div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center"><a class="generic-icon" href="https://godigitalcorp.com/" style="text-align: center"><img src="images/clients/godigital-logo.png" style="text-align:center" width="150em" /> </a></div>-->
+<!-- CHANGE GRID -->
+
+<!--<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 4%; text-align:center"><a class="generic-icon" href="https://ysa.com.ph/" style="text-align: center"><img src="images/clients/ysa-logo.png" style="text-align:center" width="120em" /> </a></div>-->
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="padding-top: 3%;vertical-align: center; text-align:center"><a class="generic-icon" href="https://www.fashionsmile.ph/" style="text-align: center"><img src="images/clients/fashion-smile-logo.png" width="110em" /> </a></div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-5" style="vertical-align: center; text-align:center; padding-top:1%"><a class="generic-icon" href="http://www.arameshwellness.com/" style="text-align: center"><img src="images/clients/aramesh-logo.png" style="text-align:center" width="140em" /> </a></div>
+<!-- CHANGE GRID -->
+
+<div class="col-lg-4 col-md-12 col-sm-12 mt-5" style="padding-top: 3%; text-align:center"><a class="generic-icon" href="http://mober.delivery/web/" style="text-align: center"><img src="images/clients/mober-icon.png" style="text-align:center" width="160em" /> </a></div>
+
+
+<!-- CHANGE GRID  -->
+
+
+<!-- END GRID --></div>
+</div>
+</div>
+
+
+
+<hr /><!-- TEAM -->
 <div class="container-fluid" id="team" style="background-color:black; padding-top:10%; padding-bottom:10%">
- 	<div style="margin:auto; width:100%; min-width: 200px;">
- 		<div style="position: -webkit-sticky;">
- 			<h1 class="section-header">Team </h1>
- 		</div>
- 	
- 	<div class="row no-gutters" style="margin-top:0%; padding-top:0%">
-
- 		<!-- Partners -->
-
- 		<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/akarsh-pic.jpg" class="rounded-circle profile-pic" >
-			<h3 class="person-name">Akarsh Dhaiya</h3>
-			<h4 class="person-position">Managing Partner</h4>
-			<a href="https://www.linkedin.com/in/akarshdhaiya/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/mark-cropped.png" class="rounded-circle profile-pic"> 
-			<h3 class="person-name">Mark Del Rosario</h3>
-			<h4 class="person-position">Partner</h4>
-			<a href="https://www.linkedin.com/in/markedelrosario/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div> 
-
-		<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/vincent-cropped.png" class="rounded-circle profile-pic">
-			<h3 class="person-name">Vincent Rondot</h3>
-			<h4 class="person-position">Senior Vice President</h4>
-			<a href="https://www.linkedin.com/in/vincentrondot/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
-
-		<!-- Associates -->
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/carl-cropped.png" class="rounded-circle profile-pic">
-			<h3 class="person-name">Carl Garcia</h3>
-			<h4 class="person-position">Senior Associate</h4>
-			<a href="https://www.linkedin.com/in/casgarcia/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/tristan-cropped.png" class="rounded-circle profile-pic"> 
-			<h3 class="person-name">Tristan Joshua Alba</h3>
-			<h4 class="person-position">Senior Associate</h4>
-			<a href="https://www.linkedin.com/in/tristanjoshuaalba/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/katarzyna-pic.jpg" class="rounded-circle profile-pic"> 
-			<h3 class="person-name">Katarzyna Dudycz</h3>
-			<h4 class="person-position">Associate</h4>
-			<a href="https://www.linkedin.com/in/katarzyna-dudycz/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
-
-		<!-- Analysts -->
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/levi-cropped.png" class="rounded-circle profile-pic">
-			<h3 class="person-name">Levi Alan Vitug</h3>
-			<h4 class="person-position">Analyst</h4>
-			<a href="https://www.linkedin.com/in/lavitug/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/yuka-cropped.png" class="rounded-circle profile-pic"> 
-			<h3 class="person-name">Yuka Ueno</h3>
-			<h4 class="person-position">Analyst</h4>
-			<a href="https://www.linkedin.com/in/yuka-ueno-5b39b0186/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
-
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
-			<img src="images/team/erwin-cropped.png" class="rounded-circle profile-pic"> 
-			<h3 class="person-name">Erwin Lee</h3>
-			<h4 class="person-position">Analyst</h4>
-			<a href="https://www.linkedin.com/in/lee-erwin-t/"><i class="fab fa-linkedin profile-linkedin"></i></a>
-		</div>
-
-		<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
-	</div>
- 	</div>
- </div>
+<div style="margin:auto; width:100%; min-width: 200px;">
+<div style="position: -webkit-sticky;">
+<h1 class="section-header" style="text-align:center; color:white; font-size: 30px; text-transform: uppercase; letter-spacing: 8px; margin-bottom:2%;">Team</h1>
 </div>
 
-<hr>
+<div class="row no-gutters" style="margin-top:0%; padding-top:0%"><!-- Partners -->
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
 
-<!-- Media -->
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/akarshdhaiya/">
+        <img class="rounded-circle profile-pic" src="images/team/akarsh-pic.jpg" />
+    </a>
+<h3 class="person-name">Akarsh Dhaiya</h3>
+
+<h4 class="person-position">Managing Partner</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/markedelrosario/">
+        <img class="rounded-circle profile-pic" src="images/team/mark-croppedv2.png" />
+    </a>
+<h3 class="person-name">Mark Del Rosario</h3>
+
+<h4 class="person-position">Partner</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/vincentrondot/">
+        <img class="rounded-circle profile-pic" src="images/team/vincent-croppedv2.png" />
+    </a>
+<h3 class="person-name">Vincent Rondot</h3>
+
+<h4 class="person-position">Senior Vice President</h4>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+<!-- Associates -->
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/casgarcia/">
+       <img class="rounded-circle profile-pic" src="images/team/carl-croppedv2.png" />
+    </a>
+<h3 class="person-name">Carl Garcia</h3>
+
+<h4 class="person-position">Senior Associate</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/tristanjoshuaalba/">
+        <img class="rounded-circle profile-pic" src="images/team/tristan-croppedv2.png" />
+    </a>
+<h3 class="person-name">Tristan Joshua Alba</h3>
+
+<h4 class="person-position">Senior Associate</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/lavitug/">
+        <img class="rounded-circle profile-pic" src="images/team/levi-croppedv2.png" />
+    </a>
+<h3 class="person-name">Levi Alan Vitug</h3>
+
+<h4 class="person-position">Analyst</h4>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+<!-- Analysts -->
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/yuka-ueno-5b39b0186/">
+        <img class="rounded-circle profile-pic" src="images/team/yuka-croppedv2.png" />
+    </a>
+<h3 class="person-name">Yuka Ueno</h3>
+
+<h4 class="person-position">Analyst</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/lee-erwin-t/">
+        <img class="rounded-circle profile-pic" src="images/team/erwin-croppedv2.png" />
+    </a>
+<h3 class="person-name">Erwin Lee</h3>
+
+<h4 class="person-position">Analyst</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/gian-libunao-a571b9138/">
+        <img class="rounded-circle profile-pic" src="images/team/gian-croppedv2.png" />
+    </a>
+<h3 class="person-name">Gian Libunao</h3>
+
+<h4 class="person-position">Analyst</h4>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+
+<!-- NEXT LINE -->
+
+<!-- <div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+    <a href="https://www.linkedin.com/in/gian-libunao-a571b9138/">
+        <img class="rounded-circle profile-pic" src="images/team/gian-croppedv2.png" />
+    </a>
+<h3 class="person-name">Gian Libunao</h3>
+
+<h4 class="person-position">Analyst</h4>
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 mt-2"></div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2">
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 mt-2"></div>
+ -->
+</div>
+</div>
+</div>
+
+<hr /><!-- Media -->
 <div class="container" id="media" style="background-color:black; padding-top:10%; padding-bottom:10%">
- 	<div style="margin:auto; width:100%; min-width: 200px;">
- 		<div style="position: -webkit-sticky;">
- 			<h1 class="section-header" style="margin-bottom:5%">Media </h1>
- 		</div>
+<div style="margin:auto; width:100%; min-width: 200px;">
+<div style="position: -webkit-sticky;">
+<h1 class="section-header  style="text-align:center; color:white; font-size: 30px; text-transform: uppercase; letter-spacing: 8px; margin-bottom:2%;"" style="margin-bottom:5%">Media</h1>
+</div>
 
-	 	<div class="row no-gutters" style="margin-top:0%; padding-top:0%">
+<div class="row no-gutters" style="margin-top:0%; padding-top:0%">
+<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)"><img alt="..." class="card-img-top" src="images/media/content-img-5.png" />
+<div class="card-body"><img class="card-logo" src="images/media/podcast-logo.png" style="width:80%;" /> <a href="https://podcasts.apple.com/in/podcast/the-european-vc-journal/id1464703814" style="color:#DD2210"> </a>
 
-	 		<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
-				<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)">
-				    <img src="images/media/content-img-5.png" class="card-img-top" alt="...">
-				    
-				    <div class="card-body">
-				      <img src="images/media/podcast-logo.png" style="width:80%;" class="card-logo"> 
-				      <a href="https://podcasts.apple.com/in/podcast/the-european-vc-journal/id1464703814" style="color:#DD2210">
-				      		<h5 class="card-title">The European VC Journal Podcast</h5>
-				      </a>
-				      <p class="card-text" style="font-size:80%; text-align:justify;">The European VC Journal unpacks the VC world. On this show, you will hear about different investment thesis of multiple VCs, about LP perspective - how does an LP evaluate a VC fund, and finally, about the journey of European entrepreneurs. <a href ="https://podcasts.apple.com/in/podcast/the-european-vc-journal/id1464703814" style="color:#DD2210; font-style: italic">. . .</a></p>
-				      <p class="card-text"><small class="text-muted">Updated May 21, 2019</small></p>
+<h5 class="card-title"><a href="https://podcasts.apple.com/in/podcast/the-european-vc-journal/id1464703814" style="color:#DD2210">The European VC Journal Podcast</a></h5>
+<a href="https://podcasts.apple.com/in/podcast/the-european-vc-journal/id1464703814" style="color:#DD2210"> </a>
 
-				    </div>
-				  </div>
-	 		</div>
+<p class="card-text" style="font-size:80%; text-align:justify;">The European VC Journal unpacks the VC world. On this show, you will hear about different investment thesis of multiple VCs, about LP perspective - how does an LP evaluate a VC fund, and finally, about the journey of European entrepreneurs. <a href="https://podcasts.apple.com/in/podcast/the-european-vc-journal/id1464703814" style="color:#DD2210; font-style: italic">. . .</a></p>
 
-	 		<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
-				<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)">
-				    <img src="images/media/content-img-4.jpg" class="card-img-top" alt="...">
-				    
-				    <div class="card-body">
-				      <img src="images/media/entrepreneur-logo.png" class="card-logo"> 
-				      <a href="https://www.entrepreneur.com/article/326882" style="color:#DD2210"> 
-				      		<h5 class="card-title">The Three Type of Investors You Should Watch Out for When Raising Funds</h5>
-				      </a>
-				      <p class="card-text" style="font-size:80%; text-align:justify;">Though there are a wealth of resources that give advice to entrepreneurs in the Asia-Pacific region on how to fundraise, most do not go into detail about the different goals of venture capitalists. They give tips on how to create the perfect pitch deck for investors, or what terms you should ask these investors for, or when you should try to close your <a href ="https://www.entrepreneur.com/article/326882" style="color:#DD2210; font-style: italic">. . .</a></p>
-				      <p class="card-text"><small class="text-muted">Posted January 24, 2019</small></p>
-
-				    </div>
-				  </div>
-	 		</div>
-
-	 		<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
-				<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)">
-				    <img src="images/media/content-img-3.png" class="card-img-top" alt="...">
-				    
-				    <div class="card-body">
-				      <img src="images/media/e27-logo.png" class="card-logo" style="height:20%; width:20%"> 
-				      <a href="https://e27.co/want-investors-to-come-to-you-do-these-3-things-20190103/" style="color:#DD2210">
-				      		<h5 class="card-title">Want investors to come to you? Do these 3 things</h5>
-				      </a>
-				     
-				      <p class="card-text" style="font-size:80%; text-align:justify;">There are thousands of resources that give advice to entrepreneurs on how to successfully pitch to investors. This breadth of material, encompassing everything from Medium blogs to thousand-dollar conferences, reflects one of the most deeply-held beliefs in the startup community that "entrepreneurs should pursue investors"<a href ="https://e27.co/want-investors-to-come-to-you-do-these-3-things-20190103/" style="color:#DD2210; font-style: italic">. . .</a></p>
-				      <p class="card-text"><small class="text-muted">Posted January 3, 2019</small></p>
-
-				    </div>
-				  </div>
-
-	 		</div>
-
-	 		<div class="col-lg-2 col-md-6 col-sm-12 mt-2"></div>
-
-	 		<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
-				<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)">
-				    <img src="images/media/content-img-2.png" class="card-img-top" alt="...">
-				    
-				    <div class="card-body">
-				      <img src="images/media/entrepreneur-logo.png" class="card-logo"> 
-				      <a href="https://www.entrepreneur.com/article/325351" style="color:#DD2210">
-				      		<h5 class="card-title">How Startups can Utilise Public Relations to Attract Investors</h5>
-				      </a>
-				      
-				      <p class="card-text" style="font-size:80%; text-align:justify;">If you scan the headlines of any tech publication focused on the Asia-Pacific region, you'll notice a common theme: fundraising. Entrepreneurs, in short, like to go to the press when they have raised angel investing or venture capital.
-					  
-					  While this approach may get companies a temporary boost in publicity, it is short-sighted and may count as an example of the <a href ="https://www.entrepreneur.com/article/325351" style="color:#DD2210; font-style: italic">. . .</a></p>
-				      <p class="card-text"><small class="text-muted">Posted December 26, 2018</small></p>
-
-				    </div>
-				  </div>
-	 		</div>
-
-			<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
-				<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)">
-				    <img src="images/media/content-img-1.png" class="card-img-top" alt="...">
-				    
-				    <div class="card-body">
-				      <img src="images/media/entrepreneur-logo.png" class="card-logo"> 
-				      <a href="https://www.entrepreneur.com/article/324580" style="color:#DD2210">
-				      		<h5 class="card-title">3 Ways to Find Smart Money for Your Tech Startup</h5>
-				      </a>
-				   
-				      <p class="card-text" style="font-size:80%; text-align:justify;">As the tech ecosystem in the Asia Pacific is still nascent, most entrepreneurs who fundraise for their startup are doing so for the first time. Unfortunately, for as much as local headlines celebrate the latest fundraising news, there are comparatively much fewer resources that give guidance on successfully navigating the world of venture capital in the <a href="https://www.entrepreneur.com/article/324580" style="color:#DD2210; font-style: italic">. . .</a></p>
-				      <p class="card-text"><small class="text-muted">Posted December 11, 2018</small></p>
-
-				    </div>
-				  </div>
-	 		</div>
-
-	 		<div class="col-lg-2 col-md-6 col-sm-12 mt-2"></div>
+<p class="card-text"><small class="text-muted">Updated May 21, 2019</small></p>
+</div>
 </div>
 </div>
 
+<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)"><img alt="..." class="card-img-top" src="images/media/content-img-4.jpg" />
+<div class="card-body"><img class="card-logo" src="images/media/entrepreneur-logo.png" /> <a href="https://www.entrepreneur.com/article/326882" style="color:#DD2210"> </a>
+
+<h5 class="card-title"><a href="https://www.entrepreneur.com/article/326882" style="color:#DD2210">The Three Type of Investors You Should Watch Out for When Raising Funds</a></h5>
+<a href="https://www.entrepreneur.com/article/326882" style="color:#DD2210"> </a>
+
+<p class="card-text" style="font-size:80%; text-align:justify;">Though there are a wealth of resources that give advice to entrepreneurs in the Asia-Pacific region on how to fundraise, most do not go into detail about the different goals of venture capitalists. They give tips on how to create the perfect pitch deck for investors, or what terms you should ask these investors for, or when you should try to close your <a href="https://www.entrepreneur.com/article/326882" style="color:#DD2210; font-style: italic">. . .</a></p>
+
+<p class="card-text"><small class="text-muted">Posted January 24, 2019</small></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)"><img alt="..." class="card-img-top" src="images/media/content-img-3.png" />
+<div class="card-body"><img class="card-logo" src="images/media/e27-logo.png" style="height:20%; width:20%" /> <a href="https://e27.co/want-investors-to-come-to-you-do-these-3-things-20190103/" style="color:#DD2210"> </a>
+
+<h5 class="card-title"><a href="https://e27.co/want-investors-to-come-to-you-do-these-3-things-20190103/" style="color:#DD2210">Want investors to come to you? Do these 3 things</a></h5>
+<a href="https://e27.co/want-investors-to-come-to-you-do-these-3-things-20190103/" style="color:#DD2210"> </a>
+
+<p class="card-text" style="font-size:80%; text-align:justify;">There are thousands of resources that give advice to entrepreneurs on how to successfully pitch to investors. This breadth of material, encompassing everything from Medium blogs to thousand-dollar conferences, reflects one of the most deeply-held beliefs in the startup community that &quot;entrepreneurs should pursue investors&quot;<a href="https://e27.co/want-investors-to-come-to-you-do-these-3-things-20190103/" style="color:#DD2210; font-style: italic">. . .</a></p>
+
+<p class="card-text"><small class="text-muted">Posted January 3, 2019</small></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-6 col-sm-12 mt-2"></div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)"><img alt="..." class="card-img-top" src="images/media/content-img-2.png" />
+<div class="card-body"><img class="card-logo" src="images/media/entrepreneur-logo.png" /> <a href="https://www.entrepreneur.com/article/325351" style="color:#DD2210"> </a>
+
+<h5 class="card-title"><a href="https://www.entrepreneur.com/article/325351" style="color:#DD2210">How Startups can Utilise Public Relations to Attract Investors</a></h5>
+<a href="https://www.entrepreneur.com/article/325351" style="color:#DD2210"> </a>
+
+<p class="card-text" style="font-size:80%; text-align:justify;">If you scan the headlines of any tech publication focused on the Asia-Pacific region, you&#39;ll notice a common theme: fundraising. Entrepreneurs, in short, like to go to the press when they have raised angel investing or venture capital. While this approach may get companies a temporary boost in publicity, it is short-sighted and may count as an example of the <a href="https://www.entrepreneur.com/article/325351" style="color:#DD2210; font-style: italic">. . .</a></p>
+
+<p class="card-text"><small class="text-muted">Posted December 26, 2018</small></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 mt-2">
+<div class="card" style="margin:5%;background-color: rgba(0,0,0,0)"><img alt="..." class="card-img-top" src="images/media/content-img-1.png" />
+<div class="card-body"><img class="card-logo" src="images/media/entrepreneur-logo.png" /> <a href="https://www.entrepreneur.com/article/324580" style="color:#DD2210"> </a>
+
+<h5 class="card-title"><a href="https://www.entrepreneur.com/article/324580" style="color:#DD2210">3 Ways to Find Smart Money for Your Tech Startup</a></h5>
+<a href="https://www.entrepreneur.com/article/324580" style="color:#DD2210"> </a>
+
+<p class="card-text" style="font-size:80%; text-align:justify;">As the tech ecosystem in the Asia Pacific is still nascent, most entrepreneurs who fundraise for their startup are doing so for the first time. Unfortunately, for as much as local headlines celebrate the latest fundraising news, there are comparatively much fewer resources that give guidance on successfully navigating the world of venture capital in the <a href="https://www.entrepreneur.com/article/324580" style="color:#DD2210; font-style: italic">. . .</a></p>
+
+<p class="card-text"><small class="text-muted">Posted December 11, 2018</small></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-6 col-sm-12 mt-2"></div>
+</div>
+</div>
 <!-- FOOTER -->
+
 <div style="margin:0%"></div>
 
- <hr>
-
+<hr />
 <div style="margin:5%"></div>
 
 <footer class="page-footer font-small teal pt-4" style="background-color: rgba(256,256,256,0)">
-  <div class="container-fluid text-center text-md-left">
-    <div class="row">
-      <div class="col-md-7 mt-md-0 mt-3">
-        <h5 class="text-uppercase font-weight-bold">About Us</h5>
-	        <p style='font-size: 0.8em; text-align: justify'>
-	        	<span style="color:#DD2210">Rocket Equities </span> is an international investment banking firm experienced in M&A Advisory and Capital Raising. We advise Asian Startups and SMEs in raising capital, structuring deals, conducting due diligence, realigning capital structure and crafting key strategic decisions. 
-	        	<br><br>
-				We bring radical transparency to our portfolio companies, which are respected by Venture Capitaland HNIs looking forward to investing in high-growth ventures. We work and maintain close relations with thought leaders from top international business schools as well as industry experts to assist companies in achieving their financial objectives.
-			</p>
+<div class="container-fluid text-center text-md-left">
+<div class="row">
+<div class="col-md-7 mt-md-0 mt-3">
+<h5 class="text-uppercase font-weight-bold">About Us</h5>
 
-      </div>
-      <hr class="d-md-none">
-      <div class="col-md-5 mb-md-0 mb-3">
-        <h5 class="text-uppercase font-weight-bold">Offices</h5>
-  			<p style="font-size: 0.8em;">
-  				<span style="color:#DD2210">Europe </span> | Kabelweg 43, Amsterdam, North Holland 1014 BA, Netherlands
-          		<br> 
-          		<span style="color:#DD2210">Asia </span> | Marco Polo Ortigas Manila, Pasig, Metro Manila 1600, Philippines 
-          		<br> 
-          	</p>
-        <h5 class="text-uppercase font-weight-bold">Contact Us</h5>
-        	<p style="font-size: 0.8em;">
-        		<span style="color:#DD2210">Linkedin </span> | linkedin.com/company/rocketequities
-        		<br>
-        		<span style="color:#DD2210">Email </span> | contact@rocketequities.com  
-        		<br>
-        		<span style="color:#DD2210">Phone </span> | (+63) 28835279
-        	</p>
-      </div>
-    </div>
-  </div>
+<p style="font-size: 0.8em; text-align: justify"><span style="color:#DD2210">Rocket Equities </span> is an international investment banking firm experienced in M&amp;A Advisory and Capital Raising. We advise Asian Startups and SMEs in raising capital, structuring deals, conducting due diligence, realigning capital structure and crafting key strategic decisions.<br />
+<br />
+We bring radical transparency to our portfolio companies, which are respected by Venture Capitaland HNIs looking forward to investing in high-growth ventures. We work and maintain close relations with thought leaders from top international business schools as well as industry experts to assist companies in achieving their financial objectives.</p>
+</div>
 
-  <hr>
-<!-- COPYRIGHT -->
-  <div class="footer-copyright text-center py-3" style="background-color: rgba(0,0,0,0.2);"> 
-  		<p style="text-align: left; font-size: 0.75em"> 
-  			© 2019 Copyright Rocket Equities, B.V.
-  		</p>
-  </div>
+<hr class="d-md-none" />
+<div class="col-md-5 mb-md-0 mb-3">
+<h5 class="text-uppercase font-weight-bold">Offices</h5>
+
+<p style="font-size: 0.8em;"><span style="color:#DD2210">Europe </span> | Kabelweg 43, Amsterdam, North Holland 1014 BA, Netherlands<br />
+<span style="color:#DD2210">Asia </span> | Marco Polo Ortigas Manila, Pasig, Metro Manila 1600, Philippines</p>
+
+<h5 class="text-uppercase font-weight-bold">Contact Us</h5>
+
+<p style="font-size: 0.8em;"><span style="color:#DD2210">Linkedin </span> | linkedin.com/company/rocketequities<br />
+<span style="color:#DD2210">Email </span> | contact@rocketequities.com<br />
+<span style="color:#DD2210">Phone </span> | (+63) 28835279</p>
+</div>
+</div>
+</div>
+
+<hr /><!-- COPYRIGHT -->
+<div class="footer-copyright text-center py-3" style="background-color: rgba(0,0,0,0.2);">
+<p style="text-align: left; font-size: 0.75em">&copy; 2019 Copyright Rocket Equities, B.V.</p>
+</div>
 </footer>
+<!-- This website Designed by Tristan Joshua B. Alba / tristan.j.alba@gmail.com / www.tristanalba.com --><!-- Updated June 5, 2019 2:00 PM --></div>
 </body>
 </html>
-
-<!-- This website Designed by Tristan Joshua B. Alba / tristan.j.alba@gmail.com / www.tristanalba.com -->
-<!-- Updated June 5, 2019 2:00 PM -->
